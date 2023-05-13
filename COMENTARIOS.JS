@@ -39,4 +39,23 @@ dist
 node_modules
 
 
+AULA 2
+
+PARA DENTRALIZAR A IAMGEM COM O MARGIN 0 AUTO ELA DEVE ESTAR COM O DISPLAY BLOCK
+
+COMO A IMAGEM ESTÁ MUITO CLARA PODEMOS CRIAR UM OVERLAY, UM ELEMENTO PRETO COM UMA OPACIDADE PARA MELHORAR A VISIBILIDADE
+
+&::before{
+  content:''
+  position:absolute;
+  top:0
+  left:0
+  width:100%
+  height:100%
+  background-color:#000
+  opacity: 0.7;
+
+}
+
+TEMOS QUE ADICIONAR O POSITION RELATIVE NO .hero E NO .container
  */
